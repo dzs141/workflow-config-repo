@@ -28,7 +28,7 @@ jobs:
 
   deploy:
     needs: build
-    uses: dzs141/workflow-impl-repo/.github/workflows/reusable-build-and-deploy.yaml@main
+    uses: dzs141/workflow-impl-repo/.github/workflows/reusable-build-and-deploy.yaml@v0.0.1
     with:
       environment: production
     
